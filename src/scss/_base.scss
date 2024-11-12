@@ -8,6 +8,12 @@
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline 0.2em;
+  color: #428dbf;
 }
 
 img,
@@ -18,4 +24,5 @@ video {
 h1, h2, h3, h4, h5, h6 { 
   font-family: "Oswald";
   font-style: normal;
+  font-size: inherit;
 }
