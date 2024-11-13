@@ -1,6 +1,9 @@
 .object-wrapper {
     position: relative;
+    border: 5px solid black;
 }
+
+
 
 .object-wrapper-right {
 
@@ -18,9 +21,29 @@
 .object {
     background: black;
     position: absolute;
+
+    width: 10%;
+    height: 20vh;
+}
+
+.object-translate-left{
+    left: 10%;
+}
+
+.object-translate-right{
+    right: 10%;
 }
 
 .object-scale {
     width: 10%;
     height: 40%;
+}
+
+.object-static {
+    position: static;
+}
+
+.section-double-animation .object-wrapper {
+    height: 80vh;
+    width: 100%;
 }
