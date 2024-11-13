@@ -1,9 +1,10 @@
 .object-wrapper {
     position: relative;
     border: 5px solid black;
+    
+    display: flex;
+    align-items: center;
 }
-
-
 
 .object-wrapper-right {
 
@@ -46,4 +47,6 @@
 .section-double-animation .object-wrapper {
     height: 80vh;
     width: 100%;
+
+    background: grey;
 }
