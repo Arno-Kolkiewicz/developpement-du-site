@@ -3,6 +3,12 @@
     height: 120vh;
 
     padding: 10vw 10vh;
+
+    background: url("../img/butterfly_motion_path.webp");
+    background-position: 20% 50%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
 }
 
 .section-shop .container {
@@ -15,7 +21,6 @@
 .content {
     width: 60%;
     height: 100%;
-    background: grey;
 }
 
 .content-text {
@@ -41,4 +46,14 @@
     font-size: 26px;
     font-weight: 400;
     letter-spacing: 1.82px;
+}
+
+.section-shop .content-image img {
+    height: 100%;
+    width: unset;
+    margin: auto;
+}
+
+.section-shop .button {
+    align-self: center;
 }

@@ -6,6 +6,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    background: lightgray;
+.section-reflexion .parallax-element {
+    width: 10%;
+}
+
+.section-reflexion .object-static {
+    width: 20%;
+}
+
+
+
+
+.section-reflexion .bubble-element:nth-of-type(2) {
+    transform: translate(100%, 150%);
+}
+
+.section-reflexion .bubble-element:nth-of-type(3) {
+    transform: translate(-200%, 50%);
+}
+
+.section-reflexion .bubble-element:nth-of-type(4) {
+    transform: translate(250%, 300%);
+}
+
+.section-reflexion .bubble-element:nth-of-type(5) {
+    transform: translate(-150%, 200%);
+}
+
+.section-reflexion .bubble-element:nth-of-type(6) {
+    transform: translate(300%, -100%);
+}
+
+.section-reflexion .bubble-element:nth-of-type(7) {
+    transform: translate(-100%, 250%);
+}
+
+.section-reflexion .bubble-element:nth-of-type(8) {
+    transform: translate(150%, 50%);
 }
