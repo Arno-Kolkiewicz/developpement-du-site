@@ -1,0 +1,48 @@
+footer {
+    padding: 20vh 15vw;
+    background: #0A3856;
+    color: white;
+    position: relative;
+}
+
+footer .content-text {
+    width: 50%;
+    height: 100%;
+}
+
+footer .book-title {
+    width: 40%;
+    font-size: 50px;
+}
+
+footer .title {
+    font-size: 50px;
+    max-width: 40%;
+}
+
+footer .sub-title {
+    font-size: 16px;
+}
+
+footer .book-title {
+    width: fit-content;
+}
+
+footer .book-description {
+    width: inherit;
+}
+
+footer .container-sub-content {
+    transform: translate(8%, 400%);
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+footer .container-sub-content .content {
+    display: inline-block;
+}
+
+footer .container-sub-content p {
+    text-align: right;
+}
