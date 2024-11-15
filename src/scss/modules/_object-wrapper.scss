@@ -24,14 +24,17 @@
 .object {
     position: absolute;
     width: 100%;
+    display: flex;
 }
 
 .object-translate-left{
      left: 10%;
+     justify-content: flex-start;
 }
 
 .object-translate-right{
     right: 10%;
+    justify-content: flex-end;
 }
 
 .object-static {

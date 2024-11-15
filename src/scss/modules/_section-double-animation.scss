@@ -29,10 +29,46 @@
     width: 60%;
     height: 80%;
     overflow: hidden;
-    border: 5px solid black;
-    border-radius: 1px;
 }
 
 .section-double-animation .object-papillon {
     width: 10%;
+}
+
+.section-double-animation .object-wrapper-multi-vertical {
+    height: unset;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.section-double-animation .object-wrapper-multi-vertical .object {
+    position: unset;
+    width: 20%;
+    height: unset;
+}
+
+.section-double-animation .object-wrapper-multi-vertical #plonge-1 {
+    transform: translateY(20%);
+}
+
+.section-double-animation .object-wrapper-multi-vertical #plonge-2 {
+    transform: translateY(30%);
+}
+
+.section-double-animation .object-wrapper-multi-vertical #plonge-3 {
+    transform: translateY(90%);
+}
+
+.section-double-animation .big-img {
+    height: 120vh;
+}
+
+.section-double-animation .big-img .object {
+    height: 100%;
+}
+
+.section-double-animation .big-img img {
+    width: unset;
+    height: 100%;
 }
