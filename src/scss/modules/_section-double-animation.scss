@@ -4,6 +4,7 @@
 
 .section-papillon svg {
     width: 100%;
+    opacity: 0;
 }
 
 .section-memories {
@@ -19,6 +20,8 @@
     align-items: center;
 
     z-index: -1;
+
+    overflow: hidden;
 }
 
 .section-memories .object-wrapper {
